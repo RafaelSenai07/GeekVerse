@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GeekVerse - O seu universo geek definitivo para jogos, livros e animes.">
+  <title>GeekVerse | O seu universo Geek</title>
+  <link rel="stylesheet" href="./landing-page/css/style.css">
+</head>
+<body>
+
+  <!-- HEADER & NAVIGATION -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <span class="logo-text">Geek<span class="logo-highlight">Verse</span></span>
+      </a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#hero" class="nav-link active">Início</a>
+        <a href="#populares" class="nav-link">Populares</a>
+        <a href="#promocoes" class="nav-link">Promoções</a>
+        <a href="#livros" class="nav-link">Livros</a>
+        <a href="#animes" class="nav-link">Animes</a>
+        <a href="#curiosidades" class="nav-link">Curiosidades</a>
+      </nav>
+
+      <button id="theme-toggle" class="btn-theme" aria-label="Alternar tema">
+        <span class="theme-icon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO BANNER -->
+    <section id="hero" class="hero-banner">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="hero-badge">Destaque da Semana</span>
+        <h1 class="hero-title">Elden Ring: Shadow of the Erdtree</h1>
+        <p class="hero-description">Explore o Reino das Sombras, descubra segredos sombrios e enfrente chefes épicos com novas armas e armaduras.</p>
+        <div class="hero-buttons">
+          <a href="#populares" class="btn btn-primary">Explorar Agora</a>
+          <a href="#promocoes" class="btn btn-secondary">Ver Ofertas</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- POPULARES NO MOMENTO -->
+    <section id="populares" class="section">
+      <div class="container">
+        <h2 class="section-title">Populares no Momento</h2>
+        <div class="grid grid-cards">
+          
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/elden.jpg" alt="Capa de Elden Ring" class="card-img" loading="lazy">
+              <span class="card-tag">RPG</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Elden Ring</h3>
+              <p class="card-desc">O aclamado RPG de ação e fantasia em mundo aberto da FromSoftware.</p>
+              <div class="card-footer">
+                <span class="card-price">R$ 229,90</span>
+                <button class="btn btn-small">Adicionar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/baldurs.jpg" alt="Capa de Baldur's Gate 3" class="card-img" loading="lazy">
+              <span class="card-tag">RPG</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Baldur's Gate 3</h3>
+              <p class="card-desc">RPG de última geração no universo de Dungeons & Dragons.</p>
+              <div class="card-footer">
+                <span class="card-price">R$ 299,99</span>
+                <button class="btn btn-small">Adicionar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/cs.jpg" alt="Capa de CS2" class="card-img" loading="lazy">
+              <span class="card-tag">FPS</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">CS2</h3>
+              <p class="card-desc">O maior salto técnico na história do Counter-Strike.</p>
+              <div class="card-footer">
+                <span class="card-price free">Gratuito</span>
+                <button class="btn btn-small">Jogar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/onimusha.jpg" alt="Capa de Onimusha" class="card-img" loading="lazy">
+              <span class="card-tag">Ação</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Onimusha</h3>
+              <p class="card-desc">A clássica saga de samurais e forças demoníacas no Japão feudal.</p>
+              <div class="card-footer">
+                <span class="card-price">R$ 199,99</span>
+                <button class="btn btn-small">Adicionar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/god.jpg" alt="Capa de God of War Ragnarök" class="card-img" loading="lazy">
+              <span class="card-tag">Aventura</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">God of War Ragnarök</h3>
+              <p class="card-desc">Embarque na jornada épica de Kratos e Atreus pela mitologia nórdica.</p>
+              <div class="card-footer">
+                <span class="card-price">R$ 249,90</span>
+                <button class="btn btn-small">Adicionar</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROMOÇÕES -->
+    <section id="promocoes" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Promoções Imperdíveis</h2>
+        <div class="grid grid-cards">
+          
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/ac2.jpg" alt="Assassin's Creed 2" class="card-img" loading="lazy">
+              <span class="card-badge">-80%</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Assassin's Creed 2</h3>
+              <p class="card-desc">A épica história de Ezio Auditore na Itália Renascentista.</p>
+              <div class="card-footer">
+                <span class="price-old">R$ 79,99</span>
+                <span class="card-price">R$ 19,99</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/ac3.jpg" alt="Assassin's Creed 3" class="card-img" loading="lazy">
+              <span class="card-badge">-70%</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Assassin's Creed 3</h3>
+              <p class="card-desc">Lute pela liberdade durante a Revolução Americana com Connor.</p>
+              <div class="card-footer">
+                <span class="price-old">R$ 89,99</span>
+                <span class="card-price">R$ 26,99</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/black.jpg" alt="Assassin's Creed IV Black Flag" class="card-img" loading="lazy">
+              <span class="card-badge">-80%</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">AC IV: Black Flag</h3>
+              <p class="card-desc">Explore os mares do Caribe na era de ouro da pirataria.</p>
+              <div class="card-footer">
+                <span class="price-old">R$ 119,99</span>
+                <span class="card-price">R$ 23,99</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/gta.jpg" alt="GTA V" class="card-img" loading="lazy">
+              <span class="card-badge">-50%</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">GTA V</h3>
+              <p class="card-desc">Explore o mundo aberto de Los Santos e Blaine County.</p>
+              <div class="card-footer">
+                <span class="price-old">R$ 149,90</span>
+                <span class="card-price">R$ 74,95</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/the.jpg" alt="The Witcher 3" class="card-img" loading="lazy">
+              <span class="card-badge">-75%</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">The Witcher 3: Wild Hunt</h3>
+              <p class="card-desc">Acompanhe Geralt de Rívia na busca pela criança da profecia.</p>
+              <div class="card-footer">
+                <span class="price-old">R$ 129,99</span>
+                <span class="card-price">R$ 32,49</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVROS -->
+    <section id="livros" class="section">
+      <div class="container">
+        <h2 class="section-title">Livros & HQs</h2>
+        <div class="grid grid-cards">
+          
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/renascenca.jpg" alt="Capa do livro Assassin's Creed: Renascença" class="card-img" loading="lazy">
+              <span class="card-tag">Universo AC</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Assassin's Creed: Renascença</h3>
+              <p class="card-desc">Autor: Oliver Bowden. A romantização do clássico jogo de Ezio Auditore.</p>
+              <div class="card-footer"><span class="card-price">R$ 44,90</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/cruzada.jpg" alt="Capa do livro AC: A Cruzada Secreta" class="card-img" loading="lazy">
+              <span class="card-tag">Universo AC</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">AC: A Cruzada Secreta</h3>
+              <p class="card-desc">Autor: Oliver Bowden. A trajetória completa do Mestre Assassino Altaïr.</p>
+              <div class="card-footer"><span class="card-price">R$ 42,90</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/ultimo.jpg" alt="Capa do livro O Último Desejo" class="card-img" loading="lazy">
+              <span class="card-tag">The Witcher</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">O Último Desejo</h3>
+              <p class="card-desc">Autor: Andrzej Sapkowski. O início da saga do bruxo Geralt de Rívia.</p>
+              <div class="card-footer"><span class="card-price">R$ 49,90</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/espada.jpg" alt="Capa do livro A Espada do Destino" class="card-img" loading="lazy">
+              <span class="card-tag">The Witcher</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">A Espada do Destino</h3>
+              <p class="card-desc">Autor: Andrzej Sapkowski. Coletânea de contos épicos do universo The Witcher.</p>
+              <div class="card-footer"><span class="card-price">R$ 49,90</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrapper">
+              <img src="./assets/sangue.jpg" alt=Capa do livro O Sangue dos Elfos" class="card-img" loading="lazy">
+              <span class="card-tag">The Witcher</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">O Sangue dos Elfos</h3>
+              <p class="card-desc">Autor: Andrzej Sapkowski. O primeiro romance oficial da saga principal.</p>
+              <div class="card-footer"><span class="card-price">R$ 52,90</span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+<!-- ANIMES -->
+    <section id="animes" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Animes em Destaque</h2>
+        <div class="anime-highlight-card" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/sekiro.jpg') center/cover no-repeat;">
+          <div class="anime-info">
+            <span class="hero-badge">Original GeekVerse</span>
+            <h3 class="anime-title">Sekiro: No Defeat</h3>
+            <p class="anime-desc">Adaptação em anime do aclamado jogo da FromSoftware. Siga o Lobo de um braço só em sua jornada implacável no período Sengoku para resgatar seu jovem senhor e se vingar de seus inimigos.</p>
+            <button class="btn btn-primary">Assistir Teaser</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURIOSIDADES GEEK -->
+    <section id="curiosidades" class="section">
+      <div class="container">
+        <div class="section-header-inline">
+          <h2 class="section-title">Você Sabia?</h2>
+          <button id="btn-random-fact" class="btn btn-secondary">Gerar Curiosidade Aleatória</button>
+        </div>
+        
+        <div class="grid grid-curiosities" id="curiosities-grid">
+          
+          <article class="card curiosity-card">
+            <h3 class="card-title">Elden Ring & George R.R. Martin</h3>
+            <p class="card-desc">George R.R. Martin, criador de As Crônicas de Gelo e Fogo, escreveu toda a mitologia do mundo antes do jogo ser desenvolvido.</p>
+          </article>
+
+          <article class="card curiosity-card">
+            <h3 class="card-title">Sons de Passos em CS</h3>
+            <p class="card-desc">No Counter-Strike clássico, o áudio de passos no solo e superfícies foi gravado usando calçados em caixas com terra e cascalho no estúdio da Valve.</p>
+          </article>
+
+          <article class="card curiosity-card">
+            <h3 class="card-title">Língua de The Witcher</h3>
+            <p class="card-desc">A 'Língua Antiga' falada pelos elfos nos livros e jogos foi inspirada e adaptada a partir dos idiomas Galês, Irlandês e Alemão.</p>
+          </article>
+
+        </div>
+
+        <!-- Pop-up/Área de exibição de curiosidade aleatória gerada por JS -->
+        <div id="random-fact-display" class="random-fact-box hidden">
+          <p id="random-fact-text"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-info">
+        <a href="#" class="logo">Geek<span class="logo-highlight">Verse</span></a>
+        <p>&copy; <span id="year"></span> GeekVerse. Todos os direitos reservados. Trabalho Acadêmico.</p>
+      </div>
+      <div class="footer-team">
+        <h4>Integrantes do Grupo:</h4>
+        <ul>
+          <li>Desenvolvedor 1 - Front-End & UI/UX</li>
+          <li>Desenvolvedor 2 - Backend & Banco de Dados</li>
+          <li>Desenvolvedor 3 - Infraestrutura & VM Linux</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./landing-page/js/main.js"></script>
+</body>
+</html>
